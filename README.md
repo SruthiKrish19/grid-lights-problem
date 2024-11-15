@@ -11,3 +11,6 @@ Additionally, I have added another step to this where the grid cells are rendere
 3. Render the grid cells based on the input data.
 4. Add logic for activating cells when clicked.
 5. Once all the cells are activated, deactivate them one by one using setInterval.
+
+### Live Demo
+[Click here](https://grid-lights-problem.netlify.app/) to view the demo.
