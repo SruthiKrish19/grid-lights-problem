@@ -1,0 +1,33 @@
+.box-selection-body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.box-selection {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 30px;
+    padding: 30px;
+}
+
+.box {
+    height: 50px;
+    width: 50px;
+}
+
+.box.visible {
+    border: 1px solid black;
+    cursor: pointer;
+}
+
+.box.hidden {
+    opacity: 0;
+    cursor: initial;
+}
+
+.box.selected {
+    background-color: red;
+    cursor: not-allowed;
+}
